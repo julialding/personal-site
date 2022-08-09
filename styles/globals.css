@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Lora&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p, a {
+  @apply text-lg;
+}
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+a {
+  @apply text-blue-800 underline decoration-2 hover:text-blue-500;
+}
+
+body {
+  @apply bg-slate-200 text-neutral-800;
+}
+
+.w-fitcontent {
+  width: fit-content;
+}
